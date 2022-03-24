@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chess</title>
+    <title>Chess board</title>
 </head>
 <style>
     .board{
@@ -28,12 +28,12 @@
         text-align: center; 
         font-size: 50px;
     }
-    tr:nth-child(even) {background: red}
 
 </style>
 <body>
     <table class="board">
-        <!-- 8 White first -->
+    <!-- 1st row
+    adding pieces -->
         <tr>
             <div>
                 <td class="white">&#9820;</td>
@@ -47,7 +47,8 @@
             </div>
         </tr>
        
-        <!--7 Black first -->
+    <!-- 2nd row
+    adding pieces -->
         <tr>
             <div>
                 <td class="black">&#9821;</td>
@@ -60,7 +61,7 @@
                 <td class="white">&#9821;</td>
             </div>
         </tr>
-         <!-- 6 White first -->
+         <!-- 3rd row -->
          <tr>
              <div>
                 <td class="white"></td>
@@ -73,7 +74,7 @@
                 <td class="black"></td>
             </div>
         </tr>
-        <!-- 5 Black first -->
+        <!-- 4th row -->
         <tr>
             <div>
                 <td class="black"></td>
@@ -86,7 +87,7 @@
                 <td class="white"></td>
             </div>
         </tr>
-         <!-- 4 White first -->
+         <!-- 5th row -->
          <tr>
             <div>
                 <td class="white"></td>
@@ -99,7 +100,7 @@
                 <td class="black"></td>
             </div>
         </tr>
-        <!-- 3 Black first -->
+        <!-- 6th row -->
         <tr>
             <div>
                 <td class="black"></td>
@@ -112,7 +113,8 @@
                 <td class="white"></td>
             </div>
         </tr>
-          <!-- 2 White first -->
+        <!-- 7th row
+        adding pieces -->
           <tr>
             <div>
                 <td class="white">&#9817;</td>
@@ -125,7 +127,8 @@
                 <td class="black">&#9817;</td>
             </div>
         </tr>
-        <!-- 1 Black first -->
+        <!-- 8th row
+        adding pieces -->
         <tr>
             <div>
                 <td class="black">&#9814;</td>
