@@ -1,0 +1,82 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(31, 164, 253);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+#navbar .nav-item{
+    color: rgb(247, 241, 241);
+}
+#banner{
+    width: 100%;
+    height: 400px;
+    background-color: aquamarine;
+}
+#store{
+    width: 100%;
+    height: 522px;
+    background-color: coral;
+}
+#store .store-item{
+    height: 250px;
+    width: 223px;
+    margin: 5px;
+    float: left;
+}
+
+#contact{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+}
+.contact-item{
+    height: 390px;
+    width: 338px;
+    background-color: blueviolet;
+    margin: 5px;
+    float: left;
+}
+#footer{
+    width: 100%;
+    height: 30px;
+    background-color: brown;
+}
+#banner .image img{
+    min-width: 100%;
+    height: 400px;
+}
+#store .store-item img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50px;
+} 
+
+.container{
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+#contact iframe{
+    min-width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#contact .contact-item{
+    display: block;
+    text-align: justify;
+
+}
+
+
+
+

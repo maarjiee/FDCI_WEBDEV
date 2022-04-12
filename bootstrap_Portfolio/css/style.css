@@ -1,0 +1,95 @@
+@media screen and (max-width: 800px) {
+  #menubar, #main, #bottom, .wrapper {
+    width: 100%;
+  }
+  #menulist,  #main {
+  	overflow: hidden;
+  } 
+}
+.container
+{
+	width: 60%;
+	height: 100%;
+}
+#top h1
+{
+	background-color:  #5aad5a;
+	color: white;
+	text-align: left;
+	padding: 25px;
+	
+}
+#top .welcome, #main, .menuitem, #bottom{
+	font-family: 'Arial', sans-serif
+}
+
+#menubar
+{
+	width: 25%;
+	float: left;
+	margin-top: -6px;
+}
+
+#menulist
+{
+	padding-left: 0px;
+	
+
+}
+#menulist .menuitem
+{
+	width:  80%;
+	border: 0.5px solid grey;
+	list-style: none;
+	border-radius: 4px;
+	background-color: #d9d9d9;
+	margin-bottom: 1px;
+	padding: 5px;
+}
+
+#menulist .selected
+{
+ background-color: #5aad5a;
+}
+#main, .menuitem, .colorbuttons,#bottom
+{
+	font-size: 15px;
+}
+#main
+{
+	max-width: 95%;
+	max-height:  95%;
+}
+#main p{
+	font-size: 12px;
+}
+.colorbuttons
+{
+	text-decoration: none;
+	margin: auto;
+	padding: 2px;
+	color: white;
+}
+#greenbutton
+{
+	background-color: green;
+}
+#orangebutton
+{
+	background-color: orange;
+}
+#bluebutton
+{
+	background-color: blue;
+}
+#redbutton
+{
+	background-color: red;
+}
+#bottom
+{
+	background-color: #e6e6e6;
+	padding: 20px;
+	border-radius: 3px;
+	text-align: center;
+}
